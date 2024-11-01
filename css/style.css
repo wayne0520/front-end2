@@ -1,0 +1,180 @@
+
+    /* 重設樣式 */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* 基礎樣式 */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #e0e0e0;
+      color: #333;
+    }
+
+    /* 頂部導航 */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 0px;
+      padding: 30px 40px;
+      background-color: #022632;
+    }
+
+    .navbar ul li {
+        color: #fff;
+        display: inline-block;
+        font-size: 20px; 
+        height: 0px;
+        line-height: 0px; 
+        list-style: none;
+        padding: 20px 100px;
+      }
+
+    .navbar ul li a{
+        text-decoration: none;
+        color : white;
+    }
+
+    .navbar ul li:hover {
+        background: #dfe6e7;
+        cursor: pointer; 
+        transition: background .5s;  
+      }
+
+    .navbar .button {
+    }
+
+    /* 主視覺區塊 */
+    .hero-section {
+      display:flex;
+      justify-content: space-between;
+      padding: 100px 100px;
+      background: linear-gradient(to bottom, #125a70, #305a64, #3f6c7a);
+    }
+
+    .hero-section .image-box {
+      width: 100px;
+      height: 50px;
+      background-color: #8e8b8b;
+    }
+
+    .hero-section .item{
+       font-size: 120px;
+    }
+
+    .hero-section .text{
+        font-size: 40px;
+    }
+    /* 選單欄 */
+    .menu {
+      display: flex;
+      justify-content: space-between;
+      background-color: #114d61;
+      padding: 10 0 ;
+      
+    }
+
+
+    .menu ul li {
+        color: #fff;
+        display: inline-block;
+        font-size: 20px; 
+        height: 0px;
+        line-height: 0; 
+        list-style: none;
+        padding: 20px 90px;
+    }
+    
+    .menu ul li:hover{
+        background: #b2c6c9;
+        cursor: pointer; 
+        transition: background .5s; 
+    }
+
+    /* 內容區塊 */
+    .content-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: linear-gradient(to bottom, #738a91, #305a64, #3f6c7a);
+      padding: 100px;
+      border-radius: 8px;
+    }
+
+    
+    .content-section .item {
+      display: flex;
+      justify-content: space-between;
+      width: 1500px;
+      background-color: #9f9e9e;
+      padding: 50px;
+      margin: 50px;
+      border-radius: 8px;
+    }
+
+    .content-section .item .image {
+      width: 150px;
+      height: 250px;
+      background-color: #333;
+      margin-right: 30px;
+      border-radius: 8px;
+    }
+
+    .content-section .item .text {
+      flex-grow: 1;
+      background-color: #ddd;
+      padding: 100px;
+      border-radius: 8px;
+    }
+
+
+    /* 分類清單 */
+    .categories {
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    /* 頁腳 */
+    .footer {
+      display: flex;
+      justify-content: space-around;
+      background-color: #C4E1FF;
+      color: #0b3746;
+      padding: 20px;
+    }
+
+    .footer .section:hover{
+        background: #b2c6c9;
+        cursor: pointer; 
+        transition: background .5s; 
+
+    }
+
+    .footer .section {
+      text-align: center;
+    }
+
+    .footer .social-icons {
+      display: flex;
+      justify-content: center;
+      margin-top: 0;
+    }
+
+    .footer .social-icons .icon {
+      width: 30px;
+      height: 30px;
+      background-color: white;
+      margin: 5 5px;
+      padding: 5 5;
+    }
+
+    .ig {
+        width: 30px;
+        height: 30px;
+        background-color: none;
+        object-fit: contain;
+        margin:  0;
+      }
